@@ -13,3 +13,6 @@ Bills of Material:
 - 128GB Micro-SD card (Amazon)
 
 
+About:
+
+Using adafruit's RGB Matrix pannel with a PI Zero and their RGB Matrix Bonnet to display what song is currently playing from spotify.  Will use the spotify API to connect the user's account. (Still doing research and understanding how it works 7/6/2025)
