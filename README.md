@@ -11,3 +11,5 @@ Bills of Material:
 - 5V 10A 50W Power Supply 100V-240V AC to DC Adapter 5V 10 amp Switching Converter 5.5x2.1mm Plug for WS2811 WS2812B WS2813 LED Strip Pixel Lights (Amazon)
 
 - 128GB Micro-SD card (Amazon)
+
+
