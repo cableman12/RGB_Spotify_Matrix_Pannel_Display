@@ -13,7 +13,8 @@ SCOPE = "user-read-currently-playing user-read-playback-state"
 
 def create_spotify_client():
 	return spotipy.Spotify(auth_manager=SpotifyOAuth(
-		scope=SCOPE
+		scope=SCOPE,
+		cache_path=".cache"
 		)
 	)
 
