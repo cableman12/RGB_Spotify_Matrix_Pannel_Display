@@ -24,4 +24,4 @@ class MatrixDisplay:
 		self.matrix.SetImage(image)
 
 	def clear(self) -> None:
-		self.matrix.clear()
+		self.matrix.Clear()
