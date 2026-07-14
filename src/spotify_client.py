@@ -7,14 +7,17 @@ Spotify API helper functions.
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from dotenv import load_dotenv
-
+from pathlib import Path
 load_dotenv()
 SCOPE = "user-read-currently-playing user-read-playback-state"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+CACHE_PATH = PROJECT_ROOT / ".cache"
 
 def create_spotify_client():
 	return spotipy.Spotify(auth_manager=SpotifyOAuth(
 		scope=SCOPE,
-		cache_path=".cache"
+		cache_path = str(CACHE_PATH),
+		open_browser=False
 		)
 	)
 
