@@ -27,6 +27,7 @@ def main():
 		if not track:
 			Last_tracked_id = None
 			display.clear()
+			print("clearing!!!!!!")
 			time.sleep(5)
 			continue
 		# Something is playing so download art, resize, and display it, and remember the song's ID
